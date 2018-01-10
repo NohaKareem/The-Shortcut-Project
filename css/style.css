@@ -1,9 +1,54 @@
+.body {
+	font-family: 'Raleway', sans-serif;
+}
+
+/*.main_heading*/
+h1 {
+	font-family: 'Rock Salt', sans-serif;
+	text-align: center;
+	font-size: 4.5em;
+}
+
+.menu {
+	text-align: center;
+}
+
+.menu li{
+	display: inline;
+	list-style-type: none;
+	background-color: rgb(52,52,52);
+	padding: 5px 5px 5px 5px;
+	margin: 5px;
+	border-radius: 5px;
+	color: white;
+}
+
+.menu a:hover, .menu a:link, .menu a:visited {
+	color: white;
+}
+
 .android kbd {
 	background-color:rgb(164, 198, 57);
 }
 
 .eclipse kbd {
-	background-color:rgb(162, 120, 194); 
+	background-color:rgb(162, 120, 194);
+}
+
+.atom kbd {
+	background-color:rgb(157, 214, 145);
+}
+
+.brackets kbd {
+	background-color:rgb(41, 171, 226);
+}
+
+.chrome kbd {
+	background-color:rgb(77, 140, 246);
+}
+
+.firefox kbd {
+	background-color:rgb(222, 135, 42);
 }
 
 .center {
