@@ -1,5 +1,9 @@
-.body {
+body {
 	font-family: 'Raleway', sans-serif;
+}
+
+.mainCon {
+	margin-top: 40%;
 }
 
 /*.main_heading*/
@@ -13,7 +17,7 @@ h1 {
 	text-align: center;
 }
 
-.menu li{
+.menu li {
 	display: inline;
 	list-style-type: none;
 	background-color: rgb(52,52,52);
@@ -23,9 +27,32 @@ h1 {
 	color: white;
 }
 
-.menu a:hover, .menu a:link, .menu a:visited {
+/* .menu li {
+	color: white;
+} */
+
+a {
 	color: white;
 }
+
+.menu li:hover {
+	text-decoration: none;
+	color: rgb(52,52,52) !important;
+	background-color: white;
+	border: rgb(52,52,52) solid 1px;
+}
+
+a:hover {
+	text-decoration: none;
+	color: rgb(52,52,52) !important;
+}
+
+li {
+	color: rgb(52,52,52) !important;
+}
+/* .menu a:hover, .menu a:link, .menu a:visited {
+	color: white; 
+} */
 
 .android kbd {
 	background-color:rgb(164, 198, 57);
